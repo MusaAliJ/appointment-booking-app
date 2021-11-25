@@ -6,9 +6,7 @@ const SellerSearchComponent = () => {
     return (
         <Row>
             <Col>
-                <div>
-                    <SearchFieldComponent />
-                </div>
+                <div>{/* <SearchFieldComponent /> */}</div>
             </Col>
         </Row>
     );
