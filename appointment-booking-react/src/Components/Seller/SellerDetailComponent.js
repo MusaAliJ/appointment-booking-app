@@ -41,11 +41,24 @@ const SellerDetailComponent = () => {
                 <Col md={12}>
                     <Card>
                         <Card.Header>
-                            <h1>Stationary Kings</h1>
-                            <p>Product:Stationary</p>
-                            <p>Location:Karachi</p>
-                            <p>City:Karachi</p>
-                            <p>Country:Pakistan</p>
+                            <Row>
+                                <Col md={6}>
+                                    <img src="" alt="dummy" />
+                                </Col>
+                                <Col md={6}>
+                                    <Card>
+                                        <Card.Header>
+                                            <h1>Stationary Kings</h1>
+                                        </Card.Header>
+                                        <Card.Body>
+                                            <p>Product:Stationary</p>
+                                            <p>Location:Karachi</p>
+                                            <p>City:Karachi</p>
+                                            <p>Country:Pakistan</p>
+                                        </Card.Body>
+                                    </Card>
+                                </Col>
+                            </Row>
                         </Card.Header>
                         <Card.Body>
                             <Table>
